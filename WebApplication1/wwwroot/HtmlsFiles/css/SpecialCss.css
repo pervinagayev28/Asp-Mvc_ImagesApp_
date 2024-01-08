@@ -1,0 +1,22 @@
+﻿.divv {
+
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.page-image {
+    width: 100px;
+    margin-right:25px;
+    margin-left:25px;
+    margin-bottom:25px;
+}
+.img {
+    width: 120px;
+    height: 120px;
+    margin-bottom:10px;
+}
+
+.btn btn-secondary my-2 my-sm-0 {
+    background-color:green;
+}

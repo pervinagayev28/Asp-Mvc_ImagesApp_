@@ -1,0 +1,85 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+        <a class="nav-link" style="color:white" href="GetMainPage">Home</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" asp-controller="User" asp-action="GetHistories">Histories</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" asp-controller="User" asp-action="GetFavorites">Favorites</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Shorts</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-expanded="false">HistoryLinks</a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">Action</a>
+
+                    </div>
+                </li>
+            </ul>
+            <input name="searchQuery" class="inline" style="margin-right:10px;border:15px" type="text" placeholder="Search" aria-label="Search">
+            <button onclick="SearchButton(this)" class="btn btn-secondary my-2 my-sm-0">Search</button>
+
+        </div>
+    </nav>
+    <div>
+        @RenderBody();
+    </div>
+
+    <script>
+        async function SearchButton(button) {
+            var inputValue = button.previousElementSibling.value;
+
+            var response = await fetch('/User/SeacrhImages', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ LikedImageUrl: inputValue })
+            });
+            if (response.ok) {
+                var data = await response.json();
+                updatePageContent(data);
+            } else {
+                console.error('Fetch request failed with status:', response.status);
+            }
+        }
+
+        function updatePageContent(data) {
+            var content = '<div class="divv">';
+
+            for (var i = 0; i < data.length; i++) {
+                var url = data[i];
+                content += '<div class="page-image">';
+                content += '<img class="img" src="' + url.Url + '">';
+                content += '<button data-state="' + (url.State ? "true" : "false") + '" style="background-color:' + (url.State ? "green" : "red") + '" onclick="toggleLikeState(this,\'' + url.Url + '\')" class="btn btn-secondary my-2 my-sm-0">' + (url.State ? "Like" : "Dislike") + '</button>';
+                content += '</div>';
+            }
+
+            content += '</div>';
+            var resultContainer = document.getElementById('resultContainer');
+            console.log(resultContainer);
+            if (resultContainer) {
+                resultContainer.innerHTML = content;
+            }
+        }
+    </script>
+</body>
+</html>

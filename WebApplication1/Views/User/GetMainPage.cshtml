@@ -1,0 +1,37 @@
+﻿@{
+    var Data = TempData["Images"] as List<IImage>;
+}
+
+<div class="divv" id="resultContainer">
+    @if (Data != null)
+    {
+        @foreach (var url in Data)
+        {
+            <div class="page-image>
+                <img class="img" src="@url.Url">
+                <button data-state="@(url.State ? "true" : "false")" style="background-color:@(url.State ? "green" : "red")" onclick="toggleLikeState(this,'@url.Url')" class="btn btn-secondary my-2 my-sm-0"> @(url.State ? "Like" : "Dislike")</button>
+            </div>
+        }
+    }
+</div>
+
+
+
+<script>
+    function toggleLikeState(button, obj) {
+        var currentState = button.dataset.state === "true";
+        currentState = !currentState;
+        button.innerText = currentState ? "Like" : "Dislike";
+        button.dataset.state = currentState.toString().toLowerCase();
+        button.style.backgroundColor = currentState ? "green" : "red";
+        var apiUrl = currentState ? "/User/DislikedImage" : "/User/LikedImage";
+        console.log(apiUrl);
+        fetch(apiUrl, {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({ LikedImageUrl: obj })
+        });
+    }
+</script>
