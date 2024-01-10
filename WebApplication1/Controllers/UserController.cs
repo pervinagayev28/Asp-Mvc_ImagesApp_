@@ -28,8 +28,6 @@ namespace WebApplication1.Controllers
         [HttpPost]
         public async Task<string> SeacrhImages([FromBody] LikedImageUrlClass LikedImageUrl)
         {
-            //await addHistoriesAsync();
-            //await ChangeState();
             var data = await GetImages.GetImageFromUnsplash(LikedImageUrl.LikedImageUrl);
             foreach (var item in await context.FavoritesTb.ToListAsync())
             {
@@ -43,6 +41,7 @@ namespace WebApplication1.Controllers
                 }
 
             }
+            await addHistoriesAsync(data);
             return JsonSerializer.Serialize(data);
         }
         static string ExtractUniquePart(string url)
@@ -61,21 +60,10 @@ namespace WebApplication1.Controllers
 
             return string.Empty;
         }
-        private async Task ChangeState()
+    
+        private async Task addHistoriesAsync(List<IImage>data)
         {
-            List<IImage> data = await context.FavoritesTb.Cast<IImage>().ToListAsync();
-            foreach (var item in TempData["Images"] as List<IImage>)
-            {
-                foreach (var image in data)
-                {
-                    if (image.Url == item.Url)
-                        item.State = image.State;
-                }
-            }
-        }
-        private async Task addHistoriesAsync()
-        {
-            (TempData["Images"] as List<IImage>).ForEach(async i =>
+            data.ForEach(async i =>
             {
                 var temp = new Histories() { Url = i.Url, State = i.State };
                 await context.HistoriesTb.AddAsync(temp);
@@ -104,7 +92,11 @@ namespace WebApplication1.Controllers
             return View();
         }
 
+        public IActionResult GetShorts()
+        {
 
+            return View();
+        }
         public async Task<IActionResult> LikedImage([FromBody] LikedImageUrlClass LikedImageUrl)
         {
 
