@@ -1,0 +1,142 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\Asp-Mvc_ImagesApp_\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6DE27070-5450-49B1-B598-B1E81A5297CE}|WebApplication1\\WebApplication1.csproj|C:\\Users\\user\\Desktop\\Asp-Mvc_ImagesApp_\\webapplication1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6DE27070-5450-49B1-B598-B1E81A5297CE}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DE27070-5450-49B1-B598-B1E81A5297CE}|WebApplication1\\WebApplication1.csproj|c:\\users\\user\\desktop\\asp-mvc_imagesapp_\\webapplication1\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6DE27070-5450-49B1-B598-B1E81A5297CE}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DE27070-5450-49B1-B598-B1E81A5297CE}|WebApplication1\\WebApplication1.csproj|C:\\Users\\user\\Desktop\\Asp-Mvc_ImagesApp_\\webapplication1\\views\\user\\getshorts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6DE27070-5450-49B1-B598-B1E81A5297CE}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\user\\getshorts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DE27070-5450-49B1-B598-B1E81A5297CE}|WebApplication1\\WebApplication1.csproj|C:\\Users\\user\\Desktop\\Asp-Mvc_ImagesApp_\\webapplication1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6DE27070-5450-49B1-B598-B1E81A5297CE}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DE27070-5450-49B1-B598-B1E81A5297CE}|WebApplication1\\WebApplication1.csproj|C:\\Users\\user\\Desktop\\Asp-Mvc_ImagesApp_\\webapplication1\\wwwroot\\htmlsfiles\\css\\specialcss.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{6DE27070-5450-49B1-B598-B1E81A5297CE}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\wwwroot\\htmlsfiles\\css\\specialcss.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DE27070-5450-49B1-B598-B1E81A5297CE}|WebApplication1\\WebApplication1.csproj|C:\\Users\\user\\Desktop\\Asp-Mvc_ImagesApp_\\webapplication1\\views\\user\\getmainpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6DE27070-5450-49B1-B598-B1E81A5297CE}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\user\\getmainpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 11,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GetShorts.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Asp-Mvc_ImagesApp_\\WebApplication1\\Views\\User\\GetShorts.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\User\\GetShorts.cshtml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Asp-Mvc_ImagesApp_\\WebApplication1\\Views\\User\\GetShorts.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\User\\GetShorts.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-14T05:59:16.521Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GetMainPage.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Asp-Mvc_ImagesApp_\\WebApplication1\\Views\\User\\GetMainPage.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\User\\GetMainPage.cshtml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Asp-Mvc_ImagesApp_\\WebApplication1\\Views\\User\\GetMainPage.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\User\\GetMainPage.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-14T05:59:16.541Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Asp-Mvc_ImagesApp_\\WebApplication1\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Asp-Mvc_ImagesApp_\\WebApplication1\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABoAAABTAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-14T05:59:16.542Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SpecialCss.css",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Asp-Mvc_ImagesApp_\\WebApplication1\\wwwroot\\HtmlsFiles\\css\\SpecialCss.css",
+              "RelativeDocumentMoniker": "WebApplication1\\wwwroot\\HtmlsFiles\\css\\SpecialCss.css",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Asp-Mvc_ImagesApp_\\WebApplication1\\wwwroot\\HtmlsFiles\\css\\SpecialCss.css",
+              "RelativeToolTip": "WebApplication1\\wwwroot\\HtmlsFiles\\css\\SpecialCss.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-04-14T05:59:16.544Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Asp-Mvc_ImagesApp_\\WebApplication1\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Asp-Mvc_ImagesApp_\\WebApplication1\\Controllers\\UserController.cs",
+              "RelativeToolTip": "WebApplication1\\Controllers\\UserController.cs",
+              "ViewState": "AQIAAE8AAAAAAAAAAAAwwGAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T05:59:17.271Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Asp-Mvc_ImagesApp_\\WebApplication1\\appsettings.json",
+              "RelativeDocumentMoniker": "WebApplication1\\appsettings.json",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Asp-Mvc_ImagesApp_\\WebApplication1\\appsettings.json",
+              "RelativeToolTip": "WebApplication1\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-14T05:59:17.49Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
